@@ -1,0 +1,19 @@
+{
+  "require-dev": {
+    "brianhenryie/strauss": "^0.19.2"
+  },
+  "require": {
+    "stripe/stripe-php": "^15.7"
+  },
+  "extra": {
+    "target_directory": "vendor",
+    "namespace_prefix": "Churnsolution\\",
+    "classmap_prefix": "Churnsolution_",
+    "constant_prefix": "CS_"
+  },
+  "autoload": {
+    "psr-4": {
+      "\\Churnsolution\\Stripe\\": "./vendor/stripe/stripe-php/lib"
+    }
+  }
+}
